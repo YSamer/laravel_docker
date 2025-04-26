@@ -7,9 +7,9 @@
                 @endif
                 @if (auth()->user()->subscribedToProduct('prod_SCVr5QZUwS1Cyj'))
                 <p>You are subscribed to our Basic product.</p>
-                @elseif (auth()->user()->subscribedToProduct('prod_SCVr5QZUwS1Cyj'))
+                @elseif (auth()->user()->subscribedToProduct('prod_SCVtf2DY1ORijf'))
                 <p>You are subscribed to our Standard product.</p>
-                @elseif (auth()->user()->subscribedToProduct('prod_SCVr5QZUwS1Cyj'))
+                @elseif (auth()->user()->subscribedToProduct('prod_SCVuNMw8coAa1e'))
                 <p>You are subscribed to our Premium product.</p>
                 @endif
                 @if (auth()->user()->subscribedToPrice('price_1RI6qDEC99epwF4Gc1Rmivw2'))
